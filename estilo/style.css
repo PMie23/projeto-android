@@ -200,7 +200,7 @@ aside > h3 {
 aside > ul {
     list-style-position: inside; /*Colocando as bolinhas pra dentro do aside. Normalmente elas ficam fora msm. */
     columns: 2; /*Dividiu as versões em 2 colunas. */
-    list-style-type: '\2714\00A0'; /*Pega os números do 'check' no Emojipedia e coloca essa barra invertida (\). 
+    list-style-type: '\2714\00A0\00A0'; /*Pega os números do 'check' no Emojipedia e coloca essa barra invertida (\). 
     \00A0 é o código para o espaço NBSP em HTML. Não é compatível com todo tipo de navegador. */
 }
 
